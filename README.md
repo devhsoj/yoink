@@ -3,7 +3,7 @@ An extremely fast, dependency-free web stress tool
 
 #### Usage
 ```sh
-python3 sqz.py [url]
+python3 yoink.py [url]
 ```
 
 #### Note
