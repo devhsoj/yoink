@@ -7,4 +7,4 @@ python3 yoink.py [url]
 ```
 
 #### Note
-HTTPS is still under work
+HTTPS/TLS is buggy and under maintenance
