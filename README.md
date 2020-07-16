@@ -7,4 +7,4 @@ python3 sqz.py [url]
 ```
 
 #### Note
-HTTPS is a bit buggy right now
+HTTPS is still under work
