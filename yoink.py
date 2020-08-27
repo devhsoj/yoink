@@ -31,7 +31,6 @@ def main():
     url = sys.argv[1]
     split_url = url.split('/')
     scheme = split_url[0].replace(':','')
-    
     hostname = split_url[2]
 
     if scheme == 'https':
