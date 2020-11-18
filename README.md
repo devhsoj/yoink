@@ -5,6 +5,3 @@ yoink is an extremely fast, dependency-free web stress tool
 ```sh
 python3 yoink.py [url]
 ```
-
-#### Note
-HTTPS/TLS is buggy and under maintenance
