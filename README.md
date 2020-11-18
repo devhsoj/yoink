@@ -1,5 +1,5 @@
 # yoink
-yoink is an extremely fast, dependency-free web stress tool
+yoink is an extremely fast, dependency free, HTTP/HTTPS stress testing tool.
 
 #### Usage
 ```sh
